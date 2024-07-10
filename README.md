@@ -56,14 +56,14 @@ sudo nano /etc/nginx/sites-available/site-name
 
 ------------------------------------------------------------------------------------
 
-sudo ln -s /etc/nginx/sites-available/site-name /etc/nginx/sites-enabled/
+`sudo ln -s /etc/nginx/sites-available/site-name /etc/nginx/sites-enabled/`
 
 ------------------------------------------------------------------------------------
 
 
-cd /var/www/site-name
+`cd /var/www/site-name`
 
-sudo npm run build    (or `sudo npm run dev`)
+`sudo npm run build`    (or `sudo npm run dev`)
 
 ------------------------------------------------------------------------------------
 
@@ -72,19 +72,17 @@ sudo npm run build    (or `sudo npm run dev`)
 In file /etc/hosts
 
     
-    127.0.0.1   site-name.test
+    `127.0.0.1   site-name.test`
     
 ------------------------------------------------------------------------------------   
     
-sudo nginx -t
+`sudo nginx -t`
 
 ------------------------------------------------------------------------------------
 
-sudo systemctl reload nginx
+`sudo systemctl reload nginx`
 
 ------------------------------------------------------------------------------------
-
-
 
 http://site-name.test
 
