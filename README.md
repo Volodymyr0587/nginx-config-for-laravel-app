@@ -10,8 +10,9 @@
 
 ------------------------------------------------------------------------------------
 
-sudo chown -R www-data.www-data /var/www/site-name/storage
-sudo chown -R www-data.www-data /var/www/site-name/bootstrap/cache
+`sudo chown -R www-data.www-data /var/www/site-name/storage`
+`sudo chown -R www-data.www-data /var/www/site-name/bootstrap/cache`
+`sudo chown -R www-data:www-data /var/www/site-name/public`
 
 ------------------------------------------------------------------------------------
 
